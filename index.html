@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="assets/javascript/app.js"></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <title>Trivia Game</title>
+</head>
+
+<body>
+  <!--container that holds everything-->
+  <div class="container">
+    <div class="row justify-content-md-center">
+      <div class="col-md-6 text-center">
+        <!--Jumbotron-->
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <!--Title-->
+            <h1 class="display-4">Lord of the Rings Trivia Game</h1>
+            <!-- Questions held in this paragraph tag-->
+            <p id="question"></p>
+            <!-- Timer held in this div-->
+            <div id="timer-area">
+              <h4>Time Remaining: <span id="timer">10</span> seconds</h4>
+            </div>
+          </div>
+          <!-- Messages displayed held in this div-->
+          <div id="message-area" class="text-center">
+            <p>Upon pressing "START GAME", you will be prompted to answer 5 questions about the Lord of the Rings
+              Trilogy</p>
+            <p>You will have 10 seconds per questions to click on the correct answer. If you choose the wrong answer,
+              your choice will be in red, and the correct answer will be green. If you don't choose an answer at all the
+              correct answer will show up green.</p>
+            <p>Press START GAME</p>
+          </div>
+        </div>
+
+        <!-- Choices held in this div -->
+        <div id="choices-div" class="btn-group-lg">
+          <button id="correct" type="button" class="btn btn-secondary">
+          </button>
+
+          <button id="choice2" type="button" class="btn btn-secondary">
+          </button>
+
+          <button id="choice3" type="button" class="btn btn-secondary">
+          </button>
+
+          <button id="choice4" type="button" class="btn btn-secondary">
+          </button>
+        </div>
+        <div id="control-buttons">
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

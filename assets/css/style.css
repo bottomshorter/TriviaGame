@@ -1,0 +1,19 @@
+body{
+    background: url("https://images5.alphacoders.com/614/thumb-1920-614690.jpg")
+}
+
+.btn {
+    width:100%;
+    margin: 10px;
+}
+
+/* for some reason I couldnt get the jumbotron to get a transparent background, but I was going to change the font colors too but since this didnt work I'm leaving it as is.*/
+
+.jumbotron{
+    background-color: transparent;
+    width: 100%;
+}
+
+#message-area{
+    color: black
+}
