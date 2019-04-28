@@ -1,6 +1,6 @@
 # TriviaGame
 
-This was a Lord of The Rings Trilogy trivia game I created for assignment 5 for our jQuery unit.
+This was a Lord of The Rings Trilogy trivia game I created for assignment 5 for our Javascript timers unit.
 
 Directions:
 
